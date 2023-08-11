@@ -63,6 +63,11 @@ wanodirroot = '/home/matlab/data/out/';
 Ensure that `indatadirdir` points to the directory where imagedata.tar.gz was extracted.
 Then in MATLAB, run the main_CellEplorer script.
 
+## Support
+
+If you encounter any issues or have questions regarding the software, please email us at [xx@xxx.com](mailto:xx@xxx.com).
+
+
 ## Citation
 
 If you find this software useful in your research, please consider citing:
