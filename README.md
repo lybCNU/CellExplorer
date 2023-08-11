@@ -65,7 +65,7 @@ Then in MATLAB, run the main_CellEplorer script.
 
 ## Support
 
-If you encounter any issues or have questions regarding the software, please email us at [xx@xxx.com](mailto:xx@xxx.com).
+If you encounter any issues or have questions regarding the software, please email us at [li.yongbin@cnu.edu.com](mailto:li.yongbin@cnu.edu.cn).
 
 
 ## Citation
