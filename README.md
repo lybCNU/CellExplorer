@@ -23,7 +23,25 @@ For those familiar with Docker, a `Dockerfile` has been provided to streamline t
 `docker run -it --name cell_explorer_container cellexplorer:latest`
 
 ### Direct Download (Advanced users)
-Download the software package `CellExplorer.tar.gz` and extract the archive.
+
+1. **Software Setup**:
+    - Download the software package [CellExplorer.tar.gz](link-to-download) and extract the archive:
+      ```
+      tar -xzvf CellExplorer.tar.gz
+      ```
+
+2. **Environment Setup Using Dockerfile**:
+    If you'd like to set up the environment on your machine based on the Dockerfile, follow the steps below:
+    - Clone the repository or download the source code containing the `Dockerfile`.
+    - Examine the `Dockerfile` to understand the dependencies and installation steps.
+    - Manually install the required packages and dependencies listed in the `Dockerfile` on your machine. This might require using package managers like `apt`, `brew`, or `pip`, depending on your system and the specific dependencies.
+    - Adjust system settings or configurations as described in the `Dockerfile`, if necessary.
+   
+3. **Running the Software**:
+    - Navigate to the directory where you've extracted `CellExplorer`.
+    - Follow the software-specific instructions to launch and operate the tool.
+
+Note: Manual setup requires a deeper understanding of the system's requirements and might be challenging. Ensure you're familiar with the dependencies and configurations before proceeding.
 
 ## Test with Sample Data
 1. Download the test data: `imagedata.tar.gz`.
