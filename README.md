@@ -41,7 +41,7 @@ outdatadirdir = '/home/matlab/data/TempData/';
 outdatadirdir2 = '/home/matlab/data/TempData/';
 outdatadirwano = '/home/matlab/data/TempData/';
 wanodirroot = '/home/matlab/data/out/';
-
+```
 Ensure that indatadirdir points to the directory where imagedata.tar.gz was extracted.
 Then in MATLAB, run the main_CellEplorer script.
 
