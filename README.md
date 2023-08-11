@@ -20,7 +20,14 @@ For those familiar with Docker, a `Dockerfile` has been provided to streamline t
 1. Build the Docker image:
 `docker build -t cellexplorer:latest .`
 2. Once the image is built, run the container:
-`docker run -it --name cell_explorer_container cellexplorer:latest`
+`docker run -it --rm -p 5901:5901 -p 6080:6080 cellexplorer:latest`
+3. After starting the Docker container, access the software via a VNC viewer on your browser. Typically, you can do this by navigating to:
+`http://localhost:5901/`
+4. When prompted for a password, enter: `matlab`
+5. Open a terminal within the Docker environment and start MATLAB by entering:`matlab`
+6. Upon starting MATLAB, you will be prompted for a license username and password for MATLAB. Please input your own MATLAB license credentials as these are not provided.
+7. Once authenticated, navigate to the `CellExplorer` directory in MATLAB to access and run the application.
+
 
 ### Direct Download (Advanced users)
 
