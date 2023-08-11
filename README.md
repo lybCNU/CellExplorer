@@ -25,7 +25,7 @@ For those familiar with Docker, a `Dockerfile` has been provided to streamline t
 ### Direct Download (Advanced users)
 
 1. **Software Setup**:
-    - Download the software package [CellExplorer.tar.gz](link-to-download) and extract the archive:
+    - Download the software package [CellExplorer.tar.gz] and extract the archive:
       ```
       tar -xzvf CellExplorer.tar.gz
       ```
